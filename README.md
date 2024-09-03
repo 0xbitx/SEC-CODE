@@ -21,6 +21,7 @@ A Comprehensive Guide to Writing Secure Frontend, Backend, and API Code
 In today’s interconnected world, where applications operate on both the client and server sides and communicate through APIs, securing your code is crucial. Cybercriminals are always finding new ways to exploit vulnerabilities, so developers need to stay ahead by writing secure code. This blog explores common vulnerabilities listed in the OWASP Top 10, discusses API security concerns, and offers clear examples of both insecure and secure coding practices. By following the tips in this blog, you can better protect your applications from being compromised.
 
 1. Frontend Security
+   
 A. Cross-Site Scripting (XSS)
 
 Insecure Code Example:
@@ -94,6 +95,7 @@ Secure Code Example:
   Prevent your site from being embedded in iframes to protect against clickjacking.
 
 2. Backend Security
+   
 A. SQL Injection
 
    Insecure Code Example:
